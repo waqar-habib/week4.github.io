@@ -44,6 +44,53 @@ html {
     padding-bottom:2rem;
 }
 
+.bootstrapMenuCard {
+    width: 20rem;
+    height: 25rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: solid 1px black;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-title {
+    font-family: 'Peralta', cursive;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+
+
 .card-img-top {
     border: solid 5px black;
+    border-radius: 25px;
 }
+
+/* W3.css */
+
+.w3-card {
+    margin: 25px;
+    padding: 15px;
+}
+
+.w3-container {
+    background-image: url(images/jumbotron-new.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 26rem;
+}
+
+.card-img-top {
+    width: 15rem;
+}
+
+@media only screen and (max-width: 1440px) {
+    .jumbotronHeading {
+        font-size: 8rem;
+    }
+}
+
+
